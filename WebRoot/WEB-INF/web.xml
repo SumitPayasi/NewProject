@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeServlet1</servlet-name>
+    <servlet-class>HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet1</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainServlet1</servlet-name>
+    <servlet-class>MainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionServlet1</servlet-name>
+    <servlet-class>QuestionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnswerServlet1</servlet-name>
+    <servlet-class>AnswerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HintQuest1</servlet-name>
+    <servlet-class>HintQuest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>password1</servlet-name>
+    <servlet-class>password1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet1</servlet-name>
+    <servlet-class>AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAdminServlet1</servlet-name>
+    <servlet-class>LoginAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainJspServlet1</servlet-name>
+    <servlet-class>MainJspServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminPage1</servlet-name>
+    <servlet-class>AdminPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogOutServlet1</servlet-name>
+    <servlet-class>LogOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostAnswerServlet1</servlet-name>
+    <servlet-class>PostAnswerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUserServlet1</servlet-name>
+    <servlet-class>DeleteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteQueryServlet1</servlet-name>
+    <servlet-class>DeleteQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordServlet1</servlet-name>
+    <servlet-class>ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAnsServlet1</servlet-name>
+    <servlet-class>DeleteAnsServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HomeServlet1</servlet-name>
+    <url-pattern>/HomeServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet1</servlet-name>
+    <url-pattern>/LoginServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainServlet1</servlet-name>
+    <url-pattern>/MainServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionServlet1</servlet-name>
+    <url-pattern>/QuestionServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnswerServlet1</servlet-name>
+    <url-pattern>/AnswerServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HintQuest1</servlet-name>
+    <url-pattern>/HintQuest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>password1</servlet-name>
+    <url-pattern>/password2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet1</servlet-name>
+    <url-pattern>/AdminServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAdminServlet1</servlet-name>
+    <url-pattern>/LoginAdminServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainJspServlet1</servlet-name>
+    <url-pattern>/MainJspServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminPage1</servlet-name>
+    <url-pattern>/AdminPage2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogOutServlet1</servlet-name>
+    <url-pattern>/LogOutServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostAnswerServlet1</servlet-name>
+    <url-pattern>/PostAnswerServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserServlet1</servlet-name>
+    <url-pattern>/DeleteUserServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteQueryServlet1</servlet-name>
+    <url-pattern>/DeleteQueryServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet1</servlet-name>
+    <url-pattern>/ChangePasswordServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAnsServlet1</servlet-name>
+    <url-pattern>/DeleteAnsServlet2</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Home.html</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  	<param-name>Passcode</param-name>
+  	<param-value>12345</param-value>
+  </context-param>
+</web-app>
